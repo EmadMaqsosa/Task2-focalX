@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+/* Navbar */
+.navbar {
+  height: 7vh;
+  background-color: #323431;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 4rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sec Home */
+header .hero {
+  height: 90vh;
+  align-items: center;
+  background: url("../image/1.jpg");
+  background-size: cover;
+}
+
+header h1 {
+  width: 34.7%;
+  color: #fff;
+  font-size: 2.3rem;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Main */
+/* similar properties */
+main h2 {
+  font-size: 2.3rem;
+  margin-bottom: 3.5rem;
+}
+
+main h3 {
+  margin-bottom: 20px;
+}
+
+main .about-us,
+.our-services,
+.special,
+.teach {
+  height: 60vh;
+}
+
+main .our-services h2,
+.about-us h2 {
+  margin-bottom: 1rem;
+}
+
+main .our-services,
+.teach {
+  background-color: #fcd4bd;
+}
+
+main .box {
+  margin-left: 2rem;
+  width: 15%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Sec About */
+main .about-us {
+  gap: 10px;
+}
+
+/* Sec Services and Sec Specialization and Sec Teacher*/
+main .our-services .description,
+.special .title,
+.teach .teacher-name {
+  flex-direction: row;
+  text-align: center;
+}
+
+main .our-services .box {
+  margin: 3rem 0 0 4rem;
+}
+
+main .teach img {
+  width: 60%;
+}
+
+/* Sec Plans */
+main .s-plans {
+  height: 90vh;
+}
+
+main .s-plans .plans-title {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+main .s-plans .box {
+  margin-left: 2rem;
+  width: 15%;
+  padding: 10px;
+  background-color: #f5deb3;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+main .s-plans h3 {
+  text-align: center;
+}
+
+main .s-plans img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+main .s-plans p {
+  margin-top: 10px;
+  padding: 5px;
+  text-align: start;
+  border: 2px solid #ffe15e;
+  background-color: #fde98c;
+}
+
+main .s-plans ul {
+  list-style-position: inside;
+}
+
+/* Footer */
+/* similar properties */
+footer h3{
+  font-size: 2.3rem;
+}
+/* Sec Contact Us */
+footer .contact-us {
+  height: 60vh;
+  background-color: #fcd5bf;
+}
+footer .contact-us h3 {
+  margin-bottom: 2rem;
+}
+footer .form-contact {
+  width: 270px;
+  margin-bottom: 10px;
+}
+
+footer button {
+  color: #fff;
+  width: 50%;
+  padding: 5px 10px;
+  background-color: #333333;
+  border: 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+}
+
+/* Sec Contact info */
+footer .info {
+  height: 40vh;
+  background-color: #fcd0b9;
+}
+
+footer .info p {
+  text-align: center;
+}
+
+/* Sec Social */
+footer .social {
+  background-color: #303534;
+  color: #fff;
+  height: 5vh;
+}
+
+footer .social ul {
+  flex-direction: row;
+  list-style: none;
+}
+
+footer .social li a {
+  text-decoration: none;
+  color: #fff;
+}

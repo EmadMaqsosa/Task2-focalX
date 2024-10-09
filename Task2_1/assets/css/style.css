@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Header */
+header {
+  height: 65vh;
+  padding: 25px;
+  background-color: #808080;
+}
+
+header .hero img:first-child{
+  width: 20px;
+}
+
+header .hero {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header .pro {
+  width: 20%;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+header h3 {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+header p {
+  text-align: center;
+}
+
+/* Main */
+main {
+  padding: 50px;
+}
+
+main .container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  flex-direction: column;
+  border: 1px solid #808080;
+}
+
+main .center {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+main .list {
+  list-style: none;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+/* Sec Contact Me */
+
+main .box {
+  height: 4vh;
+  padding: 15px;
+  margin-right: 20px;
+  background-color: #017bff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+main .center img {
+  width: 15px;
+}
+
+main .center a,
+.follow a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sec Follow Me */
+main .follow {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+main .follow img {
+  width: 20px;
+}
+
+main .exp::before,
+.edu::before,
+.skills::before,
+.inter::before {
+  content: "";
+  width: 1.2rem;
+  height: 3vh;
+  display: inline-block;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+
+main .exp::before {
+  background: url("../../assets/image/briefcase-solid.svg");
+}
+
+main .edu::before {
+  background: url("../../assets/image/graduation-cap-solid.svg");
+}
+
+main .skills::before {
+  background: url("../../assets/image/code-solid.svg");
+}
+
+main .inter::before {
+  background: url("../../assets/image/star-solid.svg");
+}
